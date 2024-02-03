@@ -10,7 +10,7 @@ Yana_Kapylova
 - In terminal run: docker build -t todo .
 - Then in terminal run: docker run -d -p 8000:8000 todo
 - Run http://127.0.0.1:8000/admin/ in browser
-- Use 
+- Use the pre-created superadmin account for tests - **login:** yana **password:** adminyana
 
 # What you can do in the admin site:
 - Add new users, change their permissions (manually or using Groups) and status, update their login and password, add info about them, delete them
@@ -18,6 +18,9 @@ Yana_Kapylova
 - Add new Categories, update then and delete
 
 **NOTE:** You won't be able add a task with a non-existent category.
+
+# How to create a new user
+- From admin site in the Users tab or go to http://127.0.0.1:8000/todo/register/ and sign up yourself :)
 
 # How to access and use the API endpoints
 - **Read all of the existent tasks and create new:** http://127.0.0.1:8000/todo/tasks/

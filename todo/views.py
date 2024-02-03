@@ -15,6 +15,10 @@ from django.shortcuts import get_object_or_404
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
+from rest_framework import permissions, viewsets, generics
+from django.contrib.auth.models import User
+from .serializers import UserSerializer
+
 
 
 class TaskViewSet(viewsets.ModelViewSet):
@@ -27,4 +31,8 @@ class CategoryViewSet(viewsets.ModelViewSet):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
     permission_classes = [permissions.IsAuthenticated]
+    
+class UserCreateView(generics.CreateAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
 
