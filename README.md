@@ -23,5 +23,12 @@ Yana_Kapylova
 - From admin site in the Users tab or go to http://127.0.0.1:8000/todo/register/ and sign up yourself :)
 
 # How to access and use the API endpoints
+
+Tasks:
 - **Read all of the existent tasks and create new:** http://127.0.0.1:8000/todo/tasks/
-- **Update and delete specific existent tasks:** /todo/tasks/task_id/, for example, http://127.0.0.1:8000/todo/tasks/6/
+- **Update or delete specific existent tasks:** /todo/tasks/task_id/, for example, http://127.0.0.1:8000/todo/tasks/6/
+
+Categories:
+- **Read all of the existent tasks and create new:** http://127.0.0.1:8000/todo/categories/
+- **Update or delete specific existent tasks:** /todo/categories/category_id/, for example, http://127.0.0.1:8000/todo/categories/3/
+
