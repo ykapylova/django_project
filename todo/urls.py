@@ -1,9 +1,5 @@
 from django.urls import include, path
 from rest_framework import routers
-from django.contrib.auth.views import LogoutView
-from django.contrib.auth import logout
-
-
 from . import views
 
 router = routers.DefaultRouter()
