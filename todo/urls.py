@@ -13,8 +13,6 @@ router.register(r'categories', views.CategoryViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    path('tasks/update/<int:pk>/', views.update_tasks, name='update-tasks'),
-    path('tasks/delete/<int:pk>/', views.delete_tasks, name='delete-tasks'),
 ]
 
 urlpatterns += router.urls
