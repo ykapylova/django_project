@@ -26,9 +26,9 @@ Yana_Kapylova
 
 Tasks:
 - **Read all of the existent tasks and create new:** http://127.0.0.1:8000/todo/tasks/
-- **Update or delete specific existent tasks:** /todo/tasks/task_id/, for example, http://127.0.0.1:8000/todo/tasks/6/
+- **Update or delete specific existent task:** /todo/tasks/task_id/, for example, http://127.0.0.1:8000/todo/tasks/6/
 
 Categories:
-- **Read all of the existent tasks and create new:** http://127.0.0.1:8000/todo/categories/
-- **Update or delete specific existent tasks:** /todo/categories/category_id/, for example, http://127.0.0.1:8000/todo/categories/3/
+- **Read all of the existent categories and create new:** http://127.0.0.1:8000/todo/categories/
+- **Update or delete specific existent category:** /todo/categories/category_id/, for example, http://127.0.0.1:8000/todo/categories/3/
 
