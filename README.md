@@ -33,7 +33,7 @@ Categories:
 - **Update or delete specific existent category:** /todo/categories/category_id/, for example, http://127.0.0.1:8000/todo/categories/3/
 
 # UI
-I've tried implementing a simple custom UI based on a project I've made before using JS and localStorage just for fun :)
+I've tried implementing a simple custom UI (based on a project I've made before using localStorage) just for fun :)
 You're welcome to visit it https://ykapylova.github.io/todo-ui/
 
 **NOTE:** Keep Django project running at http://127.0.0.1:8000/"
